@@ -13,7 +13,12 @@ import { AiFillHeart } from "react-icons/ai";
 export const Footer = () => {
   return (
     <>
-      <div id="footer-parent">
+      <div
+        id="footer-parent"
+        style={{
+          margin: "-50px 0",
+        }}
+      >
         <div id="footer">
           <div>
             <b>Email :</b> aspiringshoaibsayyad@gmail.com
